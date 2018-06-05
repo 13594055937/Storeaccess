@@ -1,0 +1,60 @@
+*{
+    font-size: 12px;
+    list-style: none;
+    font-family: 微软雅黑;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+h3,p{
+    padding: 0;
+    margin: 0;
+}
+.ul_list{
+    overflow: hidden;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+.ul_list>li:nth-child(1){
+    float: left;
+}
+.ul_list>li:nth-child(2){
+    float: left;
+    margin-left: 20px;
+}
+.ul_list>li:nth-child(3){
+    float: right;
+}
+.ul_list>li:nth-child(2) ul li h3{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.ul_list>li:nth-child(2) ul li p{
+    display: block;
+    width: 500px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.ul_list a{
+    color: #29aad5;
+}
+.ul_list .btn{
+    font-size: 12px;
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 2px 5px;
+}
+
+/*颜色数字*/
+.ico_num{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff6600;
+    padding-right: 5px;
+}
